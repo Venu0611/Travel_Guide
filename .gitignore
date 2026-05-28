@@ -1,0 +1,23 @@
+```text
+# Frontend ignores
+vtravel-frontend/node_modules/
+vtravel-frontend/.cache/
+vtravel-frontend/dist/
+vtravel-frontend/build/
+
+# Backend ignores (Spring Boot / Java target files)
+vtravel-backend/target/
+vtravel-backend/.gradle/
+vtravel-backend/build/
+vtravel-backend/.settings/
+vtravel-backend/.classpath/
+vtravel-backend/.project/
+
+# IDE and OS files
+.DS_Store
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
